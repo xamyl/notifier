@@ -1,5 +1,7 @@
-(function() {
-  const notify = (message, title = "Notification") => {
+function() {
+  let defaultTitle = "Notification";
+
+  const notify = (message, title = defaultTitle) => {
     if (!("Notification" in window)) {
       alert(message); // fallback
       return;
@@ -16,10 +18,15 @@
     }
   };
 
+  const setTitle = (newTitle) => {
+    defaultTitle = newTitle;
+  };
+
   // request permission on page loading
   if ("Notification" in window && Notification.permission === "default") {
     Notification.requestPermission();
   }
 
   window.notify = notify;
-})();
+  window.setTitle = setTitle;
+})();f
