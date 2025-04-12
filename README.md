@@ -7,9 +7,9 @@ An extremely lightweight JavaScript notification plugin.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://choosealicense.com/licenses/mit/)
 
-![GitHub Repo stars](https://img.shields.io/github/stars/xamyl/notifier?style=for-the-badge&label=repo%20stars&color=orange)
+[![GitHub Repo stars](https://img.shields.io/github/stars/xamyl/notifier?style=for-the-badge&label=repo%20stars&color=orange)](https://github.com/xamyl/notifier)
 
-![GitHub file size in bytes](https://img.shields.io/github/size/xamyl/notifier/notifier.js?label=code%20size&style=for-the-badge)
+[![GitHub file size in bytes](https://img.shields.io/github/size/xamyl/notifier/notifier.js?label=code%20size&style=for-the-badge)](https://github.com/xamyl/notifier/blob/main/notifier.js)
 
 ## Usage
 Usage is incredibly easy, just add 
