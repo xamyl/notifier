@@ -20,6 +20,11 @@ to your html file and you're done.
 
 Yup. It's that easy.
 
+Then, call `notify('MESSAGE HERE')` and a notification will play!
+
+To set the title, run `setTitle('TITLE HERE)` one line before your notify() call.
+
+
 
 
 
