@@ -1,19 +1,15 @@
 <!-- File demo -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Notifier Demo</title>
-  <script src="notifier.js"></script>
 </head>
 <body>
   <h1>Notifier Demo</h1>
-  <form onsubmit="notify(document.getElementById('toast-msg').value); return false;">
-    <input type="text" id="toast-msg" placeholder="Toast Message">
-    <button type="submit">Toast</button>
-  </form>
-  <form onsubmit="notifySys(document.getElementById('sys-msg').value); return false;">
-    <input type="text" id="sys-msg" placeholder="System Notification">
-    <button type="submit">System Notify</button>
-  </form>
+  <p>Click the button below to test a browser notification:</p>
+  <button onclick="notifySys('Hello world!')">Notify Me</button>
+
+  <script src="notifier.js"></script>
 </body>
 </html>
