@@ -1,5 +1,5 @@
 (function() {
-  const notifySys = (message, title = "Notification") => {
+  const notify = (message, title = "Notification") => {
     if (!("Notification" in window)) {
       alert(message); // fallback
       return;
@@ -21,5 +21,5 @@
     Notification.requestPermission();
   }
 
-  window.notifySys = notifySys;
+  window.notify = notify;
 })();
