@@ -29,4 +29,4 @@ function() {
 
   window.notify = notify;
   window.setTitle = setTitle;
-})();f
+})();
